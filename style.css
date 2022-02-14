@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.search, .input, .all {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.search:hover, .all:hover {
+    color: red;
+}
+
+.next {
+    padding: 10px 20px;
+    margin: 0 auto;
+}
